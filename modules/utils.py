@@ -18,6 +18,7 @@ class Utils():
         plt.ylabel(y_label)
         plt.ticklabel_format(style='plain', axis='y')
         plt.tight_layout()
+        plt.savefig("images/histogram_" + title + ".png")
         plt.show()
 
     def plot_boxplot(self, data, x, y, x_label, y_label, title):
@@ -27,6 +28,7 @@ class Utils():
         plt.xlabel(x_label)
         plt.ylabel(y_label)
         plt.ticklabel_format(style='plain', axis='y')
+        plt.savefig("images/boxplot_" + title + ".png")
         plt.show()
 
     def plot_scatterplot(self, data, x, y, xlabel, ylabel, title):
@@ -39,7 +41,7 @@ class Utils():
         plt.ticklabel_format(style='plain', axis='x')
         plt.axhline(0, color='gray', linewidth=0.8, linestyle='--')
         plt.axvline(0, color='gray', linewidth=0.8, linestyle='--')
-
+        plt.savefig("images/scatterplot_" + title + ".png")
         plt.show()
 
     def plot_regression(self, data, x, y, predicted_values, xlabel, ylabel, title):
@@ -49,5 +51,6 @@ class Utils():
         plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
+        plt.savefig("images/regression_" + title + ".png")
         plt.show()
 
