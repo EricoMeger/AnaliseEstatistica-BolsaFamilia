@@ -1,5 +1,5 @@
-from calculator import Calculator
-from utils import Utils
+from modules.calculator import Calculator
+from modules.utils import Utils
 
 #https://www.kaggle.com/datasets/alroger/bolsa-familia/data
 #low_income_families é o total de familias de baixa renda
