@@ -2,6 +2,15 @@
 
 Este projeto realiza uma análise estatística do programa Bolsa Família, utilizando um dataset público disponível no Kaggle. A análise abrange desde estatísticas descritivas até regressão linear, além de visualizações de dados para melhor entendimento das variáveis. Uma das limitações do trabalho era fazer as funções manualmente, não podendo usar funções prontas como *mean()* ou *mode()*, por exemplo.
 
+## Sumário
+
+- [Referência do Dataset](#referência-do-dataset)
+- [Requisitos](#requisitos)
+- [Utilização do Docker](#utilização-do-docker)
+- [Executando Localmente](#executando-localmente)
+- [Análises Realizadas](#análises-realizadas)
+- [Resultados e Interpretação](#resultados-e-interpretação)
+
 ## Referência do Dataset
 
 Os dados utilizados neste projeto foram extraídos do Kaggle:
