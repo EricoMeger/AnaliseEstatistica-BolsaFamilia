@@ -109,7 +109,7 @@ Foram realizadas diversas análises estatísticas com base no dataset do Bolsa F
 ## Resultados e Interpretação
 
   1. Histograma de Famílias de Baixa Renda por Ano (2011-2016):
-     - Entre 2011 e 2016, a quantidade de famílias de baixa renda atendidas pelo programa Bolsa Família não apresentou mudanças bruscas, mantendo-se estável.
+     - Entre 2011 e 2016, a quantidade de famílias de baixa renda no Brasil não apresentou mudanças bruscas, mantendo-se estável.
 
   2. Histograma de Famílias Abordadas pelo Programa por Ano (2011-2016):
      - Houve um crescimento no número de famílias atendidas de 2011 a 2014, com pico em 2014, e um declínio gradual entre 2015 e 2016.
