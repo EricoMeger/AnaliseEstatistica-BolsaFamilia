@@ -24,7 +24,7 @@ class Calculator():
         moda = []
         for key, valor in frequencia.items():
             if valor == maior_freq:
-                moda.append(key)
+                moda.append((key, valor))
 
         return moda
 
@@ -36,7 +36,8 @@ class Calculator():
         for item in items:
             varianca += (item - media) ** 2
 
-        return varianca / len(items)-1 if len(items) > 1 else 0
+        return varianca / (len(items) - 1) if len(items) > 1 else 0
+
 
     def calc_desvio_padrao(self, items):
         return self.calc_varianca(items) ** (1/2)
